@@ -1,0 +1,76 @@
+body {
+    background-color: #cfd3ce;
+}
+
+.container {
+    width: 1300px;
+    background-color: #fff;
+}
+
+.container-fluid a {
+    text-decoration: none;
+    color: #333;
+    padding: 8px;
+    font-weight: bold;
+}
+
+
+.main .d-flex {
+    margin: auto;
+}
+
+#box {
+
+    width: 400px;
+    height: 500px;
+    left: 450px;
+    background: #FFFFFF;
+    box-sizing: border-box;
+}
+
+#warna {
+    background-color: #b2bcc2;
+
+}
+
+#btn {
+    padding-left: 40px;
+}
+
+.footer {
+    height: 40px;
+    background-color: #333;
+    padding: 10px;
+}
+
+.footer .copy {
+    color: #eaeaea;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Clear Fix */
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}

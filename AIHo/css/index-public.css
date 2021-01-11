@@ -1,0 +1,144 @@
+body {
+    background-color: #cfd3ce;
+}
+
+.container {
+    width: 1300px;
+    background-color: #fff;
+}
+
+.navbar-collapse {
+    margin-left: 50px;
+}
+
+.collapse .reg {
+    margin-left: 630px;
+}
+
+.container-fluid a {
+    text-decoration: none;
+    color: #333;
+    padding: 8px;
+    font-weight: bold;
+}
+
+.collapse a {
+    text-decoration: none;
+    color: #333;
+    padding: 8px;
+    font-weight: bold;
+}
+
+.collapse a:hover {
+    color: #045f6c;
+}
+
+.collapse .dropdown-menu a {
+    color: #333;
+}
+
+.collapse .dropdown-menu a:hover {
+    color: #045f6c;
+}
+
+.hero {
+    height: 500px;
+    background-image: url(../img/morn.jpg);
+    background-size: cover;
+    background-position: 0 -70px;
+    border-top: 5px solid #045f6c;
+    border-bottom: 5px solid #045f6c;
+    margin-bottom: 20px;
+}
+
+.main {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.main .icon1 {
+    height: 300px;
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 20px;
+    float: left;
+}
+
+.main .icon2 {
+    height: 300px;
+    width: 300px;
+    margin-left: 15px;
+    margin-top: 20px;
+    float: left;
+}
+
+.main .icon3 {
+    height: 300px;
+    width: 300px;
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.icon1 p,
+.icon2 p,
+.icon3 p {
+    margin: 20px;
+    text-align: justify;
+    color: #333;
+    font-weight: 650;
+}
+
+.contact {
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact #contact {
+    margin-bottom: 25px;
+}
+
+.contact b,
+p {
+    text-align: justify;
+}
+
+.footer {
+    height: 40px;
+    background-color: #333;
+    padding: 10px;
+}
+
+.footer .copy {
+    color: #eaeaea;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Clear Fix */
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
